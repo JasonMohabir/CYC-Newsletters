@@ -1,345 +1,553 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!-- If you delete this meta tag, the ground will open and swallow you. -->
-<meta name="viewport" content="width=device-width" />
+   <head>
+      <!-- If you delete this meta tag, the ground will open and swallow you. -->
+      <meta name="viewport" content="width=device-width" />
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>CYC17</title>
+      <!-- <link rel="stylesheet" type="text/css" href="stylesheets/email.css" > -->
+      
+      <style>
+      
+      /* ------------------------------------- 
+		GLOBAL 
+------------------------------------- */
+* { 
+	margin:0;
+	padding:0;
+}
+* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+img { 
+	max-width: 100%; 
+}
+.collapse {
+	margin:0;
+	padding:0;
+}
 
-<title>CYC17</title>
+/* ------------------------------------- 
+		ELEMENTS 
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+	text-decoration:none;
+	color: #FFF;
+	background-color: #666;
+	padding:10px 16px;
+	font-weight:bold;
+	margin-right:10px;
+	text-align:center;
+	cursor:pointer;
+	display: inline-block;
+}
+
+p.callout {
+	padding:15px;
+	background-color:#FA8072;
+	margin-bottom: 15px;
+}
+.callout a {
+	font-weight:bold;
+	color: #2BA6CB;
+}
+
+table.social {
+/* 	padding:15px; */
+	background-color: #ebebeb;
 	
-<link rel="stylesheet" type="text/css" href="stylesheets/email.css" > 
+}
+.social .soc-btn {
+	padding: 3px 7px;
+	font-size:12px;
+	margin-bottom:10px;
+	text-decoration:none;
+	color: #FFF;font-weight:bold;
+	display:block;
+	text-align:center;
+}
+a.fb { background-color: #3B5998!important; }
+a.tw { background-color: #1daced!important; }
+a.gp { background-color: #DB4A39!important; }
+a.ms { background-color: #000!important; }
 
-</style>
+.sidebar .soc-btn { 
+	display:block;
+	width:100%;
+}
 
-</head>
- 
-<body bgcolor="white" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+/* ------------------------------------- 
+		HEADER 
+------------------------------------- */
+table.head-wrap { width: 100%;}
 
-<!-- HEADER -->
-<table class="head-wrap" bgcolor="#CD5C5C">
-	<tr>
-		<td></td>
-		<td class="header container" align="">
-			
-			<!-- /content -->
-			<div class="content">
-							<img class ="medium" src="https://s29.postimg.org/v3vqmxwxj/Screen_Shot_2017_01_12_at_11_00_56_PM.png" />
+.header.container table td.logo { padding: 10px; }
+.header.container table td.label { padding: 10px; padding-left:0px;}
 
-				<table bgcolor="#CD5C5C" >
 
-			</div><!-- /content -->
-			
-		</td>
-		<td></td>
-	</tr>
-</table><!-- /HEADER -->
+/* ------------------------------------- 
+		BODY 
+------------------------------------- */
+table.body-wrap { width: 100%;}
 
-<!-- BODY -->
-<table class="body-wrap" bgcolor="">
-	<tr>
-		<td></td>
-		<td class="container" align="" bgcolor="#FFFFFF">
-			
-			<!-- content -->
-			<div class="content">
-				<table>
-					<tr>
-						<td>
-							<center><h4>Created by the Chapter Youth Council of Greater New York</h4></center>
-							<h2>Happy New Year!</h2>
-							<p class="lead">
-							Greetings volunteers! We hope you all enjoy the holidays and ready for an exciting new service year. 
-							</p>
-							
-							<!-- A Real Hero (and a real human being) -->
-							<center> <p> <img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/5b70fe519731d071583df149ceb931a2c3c1708e_original.jpg"> </p> </center> <!-- /hero -->
-							<p>Thank you to everyone who attended the <i> Passport to International Services</i>. The Chapter Youth Council
-							has compiled a list of helpful opportunities for this month of January!</p>
-						</td>
-					</tr>
-				</table>
-			</div><!-- /content -->
+
+/* ------------------------------------- 
+		FOOTER 
+------------------------------------- */
+table.footer-wrap { width: 100%; clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+	font-size:10px;
+	font-weight: bold;
 	
-	<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td>
-						<!-- Callout Panel -->
-						<p class="callout">A quick reminder to club leaders to please ensure all members are registered on <b>Volunteer Connection</b> through your school-specific entry-point link. Please contact youthservicesnyc@redcross.org to find out your school-specific URL.
-</p><!-- /callout panel -->
-						
-					</td>
-				</tr>
-			</table></div><!-- /content -->
+}
+
+
+/* ------------------------------------- 
+		TYPOGRAPHY 
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#000;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:500; font-size: 27px;}
+h4 { font-weight:500; font-size: 23px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+
+.collapse { margin:0!important;}
+
+p, ul { 
+	margin-bottom: 10px; 
+	font-weight: normal; 
+	font-size:14px; 
+	line-height:1.6;
+}
+p.lead { font-size:17px; }
+p.last { margin-bottom:0px;}
+
+ul li {
+	margin-left:5px;
+	list-style-position: inside;
+}
+
+/* ------------------------------------- 
+		SIDEBAR 
+------------------------------------- */
+ul.sidebar {
+	background:#ebebeb;
+	display:block;
+	list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+	text-decoration:none;
+	color: #666;
+	padding:10px 16px;
+/* 	font-weight:bold; */
+	margin-right:10px;
+/* 	text-align:center; */
+	cursor:pointer;
+	border-bottom: 1px solid #777777;
+	border-top: 1px solid #FFFFFF;
+	display:block;
+	margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* --------------------------------------------------- 
+		RESPONSIVENESS
+		Nuke it from orbit. It's the only way to be sure. 
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+	display:block!important;
+	max-width:1500px!important;
+	margin:0 auto!important; /* makes it centered */
+	clear:both!important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+	padding:10px;
+	max-width:800px;
+	margin:0 auto;
+	display:block; 
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+/* Odds and ends */
+.column {
+	width: 100%;
+	float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap { 
+	padding:0!important; 
+	margin:0 auto; 
+}
+.column table { width:100%;}
+.social .column {
+	width: 50%;
+	float:left;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* ------------------------------------------- 
+		PHONE
+		For clients that support media queries.
+		Nothing fancy. 
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
 	
+	a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+	div[class="column"] { width: auto!important; float:none!important;}
 	
-				<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/39dac42fb7616d9e44a843b5480dce3211a936f1_original.png" /></td>
-					<td>
-						<h4>Martin Luther King Jr. Day<small> January 16th </small></h4>
-						<p class="">
-						Many clubs choose to plan a day of service on Martin Luther King Jr. Day, Monday, January 16th. 						
-						<br>
-						Possibilities for youth volunteers include: 
-						<ul>
-							<li>Helping set up fire alarms in New York neighborhoods with the <a href="http://www.redcross.org/news/article/Every-8-Minutes-the-Red-Cross-Responds-to-a-Home-Fire">Home Fire Preparedness Campaign</a></li>
-							<li>Helping kids in 3rd-5th grade learn basic safety and preparedness, for both natural disasters and their interactions with their families and communities, with <a href="http://www.redcross.org/get-help/prepare-for-emergencies/resources-for-schools">The Pillowcase Project</a>! </b></li>
-						</ul>
-						<p> Let your friends and communities know about the preparedness apps, designed for all ages, above!</p>
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-			
-			
-			<!-- content -->
-			<div class="content">
-				
-				<table bgcolor="">
-					<tr>
-						<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://redcrosseastma.files.wordpress.com/2013/05/damage-2.jpg" /></td>
-						<td>
-							<h4>Disaster Speaks<small> January 29th </small></h4>
-							<p class="">Disaster Speaks is a powerful school-based event that gives you the opportunity to personalize disaster. 
-							Large boxes will represent homes lost and will have stories attached about someone who has made the unthinkable journey through disaster. After viewing the boxes, students will have the opportunity to share the steps they will take to become prepared and fill out an American Red Cross Emergency Communication Card</p>
-							<a class="btn"> Click here to sign up through Volunteer Connection &raquo;</a>
-						</td>
-					</tr>
-				</table>
-			
-			</div><!-- /content -->
-			
+	table.social div[class="column"] {
+		width:auto!important;
+	}
 
-			<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td>
-						<!-- Callout Panel -->
-						<p class="callout">Would you like an <b> official Red Cross ID with lanyard </b>? Get one now! As long as you have a Volunteer Connection account, you can order one and it will be delivered to your house.</p><!-- /callout panel -->
-						
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-			
-			<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/4855b04f9611e42c6fea9fde7214b6d58924ab39_original.jpg" /></td>
-					<td>
-						<h4>National Blood Donor Month!</h4>
-						<p class=""> The Red Cross has determined January National Blood Donor Month, to help keep the blood supply high, and to save as many lives as possible. 
-						Every two seconds, someone in the US needs blood. 
-						<ul>
-						<li>During the winter, there is generally a dip in Red Cross blood donations due to the cold, during the season when blood is needed the most. 
-						</li>
-						<li>Find a local blood drive <a href="http://www.redcross.org/give-blood"> here</a>! Healthy individuals over 17 years old and over 110 pounds are generally eligible to donate. 
-				 		Blood can be donated every 56 days. 
-			            
-			            Even if you can’t donate blood, you can get involved by organizing a blood drive at your school or in your community!
-						</li>
-						<li>
-						
-				For more information on this process, please visit <a href="http://www.redcrossblood.org/hosting-blood-drive/coordinator-tools/planning-timeline"> here</a>, or contact Susan Sommer at susan.sommer@redcross.org. </p>
-				</li>
-						</ul>
-						
-						<a class="btn" href="https://www.youtube.com/watch?v=86WEINnM0gg">Watch this testimonial from a recipient of donated blood! &raquo;</a>
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-			
-			<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="http://redcrossyouth.org/wp-content/uploads/2011/08/nyc.png" /></td>
-					<td>
-						<h4>Youth Preparedness Week<small> January 16th - 20th</small></h4>
-						<p class="">The Red Cross Youth Preparedness week will take place from January 16th through January 20th! Opportunities to get involved with disaster preparedness, and to prepare and protect your own family from disaster, include:
-						<ul>
-						<li>Gather your family to create an <b>Emergency Plan </b>, using the Red Cross templates <a href="http://www.redcross.org/get-help/prepare-for-emergencies/be-red-cross-ready/make-a-plan">here</a>. A few minutes of planning can keep you ready for any disaster. </li>
-						<li>Encourage your younger siblings and relatives to download the <a href="http://www.redcross.org/monsterguard"> Monster Guard: Prepare for Emergencies App </a>, designed for 7-11 year olds to understand how to prepare for various emergencies, including weather and home fires.</li>
-						<li>Get them to read the <i>“Mickey and Friends Disaster Activity Book”</i>, designed by Disney, in <a href="http://public-static.disneystorycentral.com/ddb/redcross/9781423198451/index.html">English</a> and <a href="http://public-static.disneystorycentral.com/ddb/redcross/9781484724811/index.html">Spanish</a>.</li>
-						<li>Explore other Red Cross apps <a href="http://www.redcross.org/get-help/prepare-for-emergencies/mobile-apps">here</a>!</li>
-						</ul>
-						
-						
-						 </p>
-						<a class="btn" href="http://redcrossyouth.org/college-resources/activity-guides/">Explore other Red Cross activities here! &raquo;</a>
-				
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-			
-			
-				<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td>
-						
-						<!-- Callout Panel -->
-						<p class="callout">
-Next issue will have have a spotlight section for clubs doing amazing things! Let us know what cool things your club is doing by emailing us!						
-						<a href="emailto:youthservicesgny@redcross.org"> Contact youthservicesgny@redcross.org &raquo;</a>	</p><!-- /callout panel -->
-						
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-			
-			
-			<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="http://wiki.openstreetmap.org/w/images/thumb/a/a3/Missing-Maps-logo.jpg/400px-Missing-Maps-logo.jpg" /></td>
-					<td>
-						<h4>Missing Maps<small> February 22nd</small></h4>
-						<p class="">Join us on Wednesday, February 22nd for the Missing Maps Project hosted by the American Red Cross Greater New York Region! 
-						This is an exciting opportunity contribute to an international humanitarian project while networking with your fellow students across the Greater New York Region.
-						<br>
-						<i>What is Missing Maps?</i> Missing Maps is a humanitarian project that preemptively maps parts of the world that are vulnerable to natural disasters, 
-						conflicts, and disease epidemics. The project was founded in 2014 and 
-						has so far mapped large towns and cities in countries such as <b>South Sudan</b>, <b>the Democratic Republic of the Congo</b>, and the <b>Central African Republic</b>.
-						
-						 </p>
-						<a class="btn" href="http://rdcrss.org/2jaJYp8">Click here to sign up through Volunteer Connection &raquo;</a>
-				
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-			
-			
-						<!-- content -->
-			<div class="content"><table bgcolor="">
-				<tr>
-					<td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://s23.postimg.org/ctrsqnpd7/Screen_Shot_2017_01_12_at_11_28_49_PM.png" /></td>
-					<td>
-						<h4>Volunteer Intake Processing</h4>
-						<p class="">
-						
-						Looking for a new and exciting volunteer opportunity? 
-						Perhaps you would be interested in becoming a Volunteer Intake Processing (VIP) 
-						Center volunteer! Our national VIP Center is currently staffed by existing volunteers 
-						and we are looking for additional youth to join the team! You can work from home or from 
-						your local Red Cross office. </p>
-
-<p>
-<b>What are the requirements for this role?</b>
-<p>
-
-<ul>
-<li>Comfortable speaking with prospective volunteers over the phone</li>
-<li>Comfortable working with computers</li>
-<li>Being able to dedicate two to four hours a week on volunteer intake</li>
-</ul>
-<p>
-
-
-						 </p>
-						<a class="btn" href="emailto:travis.tam@redcross.org">Please email Travis Tam if you are interested. &raquo;</a>
-				
-					</td>
-				</tr>
-			</table></div><!-- /content -->
-			
-			
-			<!-- content -->
-			<div class="content">
-				<table bgcolor="">
-					<tr>
-						<td>
-							
-							<!-- social & contact -->
-							<table bgcolor="" class="social" width="100%">
-								<tr>
-									<td>
-										
-										<!--- column 1 -->
-										<div class="column">
-											<table bgcolor="" cellpadding="" align="left">
-										<tr>
-											<td>				
-												
-												<h5 class="">Connect with Us:</h5>
-												<p class="">
-												<a href="https://www.facebook.com/groups/RedCrossClubsofGNY/" class="soc-btn fb">Facebook</a> 
-												<a href="https://www.instagram.com/redcrossny/?hl=en" class="soc-btn tw">Instagram</a> 
-												<img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/f21b7d4cef00cdc7176908d5fd7c75c0e5986a82_original.jpg" />
-
-											</td>
-										</tr>
-									</table><!-- /column 1 -->
-									
-										</div>
-										
-										<!--- column 2 -->
-										<div class="column">
-											<table bgcolor="" cellpadding="" align="left">
-										<tr>
-											<td>				
-																			
-												<h5 class="">Contact Info:</h5>		
-												<p>										
-												
-												<center>
-                								Youth Services: 
-                								
-                								<a href="emailto:youthservicesgny@redcross.org">youthservicesgny@redcross.org</a>
-                								 <br><br>Chapter Coordinators of Youth Services: 
-                								
-                								<br><a href="emailto:lena.kasen2@redcross.org">Lena Kasen</a>
-                								
-                								<br><a href="emailto:thifen.mauger2@redcross.org">Thifen Mauger</a> 
-                					<br>
-                								<br>Regional Coordinator of Youth Services:
-                								<br><a href="emailto:travis.tam@redcross.org">Travis Tam</a>
-                		             			</center>					
-                								
-</p>
-											</td>
-											
-
-										</tr>
-									</table><!-- /column 2 -->	
-					
-										</div>
-										
-										<div class="clear"></div>
-	
-									</td>
-								</tr>
-							</table><!-- /social & contact -->
-							
-						</td>
-					</tr>
-				</table>
-			</div><!-- /content -->
-			
-
-		</td>
-		<td></td>
-	</tr>
-</table><!-- /BODY -->
-
-<!-- FOOTER -->
-<table class="footer-wrap">
-	<tr>
-		<td></td>
-		<td class="container">
-			<!-- content -->
-				<div class="content">
-					<table>
-						<tr>
-							<td align="center">
-							
-							</td>
-						</tr>
-					</table>
-				</div><!-- /content -->
-		</td>
-		<td></td>
-	</tr>
-</table><!-- /FOOTER -->
-
-</body>
+}
+      
+      </style>
+  
+  
+  
+   </head>
+   <body bgcolor="white" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+      <!-- HEADER -->
+      <table class="head-wrap" bgcolor="#CD5C5C">
+      <tr>
+         <td></td>
+         <td class="header container" align="">
+            <!-- /content -->
+            <div class="content">
+               <img class ="medium" src="https://s29.postimg.org/v3vqmxwxj/Screen_Shot_2017_01_12_at_11_00_56_PM.png" />
+               <table bgcolor="#CD5C5C" >
+            </div>
+            <!-- /content -->
+            </td>
+            <td></td>
+            </tr>
+            </table><!-- /HEADER -->
+            <!-- BODY -->
+            <table class="body-wrap" bgcolor="">
+               <tr>
+                  <td></td>
+                  <td class="container" align="" bgcolor="#FFFFFF">
+                     <!-- content -->
+                     <div class="content">
+                        <table>
+                           <tr>
+                              <td>
+                                 <center>
+                                    <h4>Created by the Chapter Youth Council of Greater New York</h4>
+                                 </center>
+                                 <h2>Happy New Year!</h2>
+                                 <p class="lead">
+                                    Greetings volunteers! We hope you all enjoy the holidays and ready for an exciting new service year. 
+                                 </p>
+                                 <!-- A Real Hero (and a real human being) -->
+                                 <center>
+                                    <p> <img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/5b70fe519731d071583df149ceb931a2c3c1708e_original.jpg"> </p>
+                                 </center>
+                                 <!-- /hero -->
+                                 <p>Thank you to everyone who attended the <i> Passport to International Services</i>. The Chapter Youth Council
+                                    has compiled a list of helpful opportunities for this month of January!
+                                 </p>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td>
+                                 <!-- Callout Panel -->
+                                 <p class="callout">A quick reminder to club leaders to please ensure all members are registered on <b>Volunteer Connection</b> through your school-specific entry-point link. Please contact youthservicesnyc@redcross.org to find out your school-specific URL.</p>
+                                 <!-- /callout panel -->
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/39dac42fb7616d9e44a843b5480dce3211a936f1_original.png" /></td>
+                              <td>
+                                 <h4>Martin Luther King Jr. Day<small> January 16th </small></h4>
+                                 <p class="">
+                                    Many clubs choose to plan a day of service on Martin Luther King Jr. Day, Monday, January 16th. 						
+                                    <br>
+                                    Possibilities for youth volunteers include: 
+                                 <ul>
+                                    <li>Helping set up fire alarms in New York neighborhoods with the <a href="http://www.redcross.org/news/article/Every-8-Minutes-the-Red-Cross-Responds-to-a-Home-Fire">Home Fire Preparedness Campaign</a></li>
+                                    <li>Helping kids in 3rd-5th grade learn basic safety and preparedness, for both natural disasters and their interactions with their families and communities, with <a href="http://www.redcross.org/get-help/prepare-for-emergencies/resources-for-schools">The Pillowcase Project</a>! </b></li>
+                                 </ul>
+                                 <p> Let your friends and communities know about the preparedness apps, designed for all ages, above!</p>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://redcrosseastma.files.wordpress.com/2013/05/damage-2.jpg" /></td>
+                              <td>
+                                 <h4>Disaster Speaks<small> January 29th </small></h4>
+                                 <p class="">Disaster Speaks is a powerful school-based event that gives you the opportunity to personalize disaster. 
+                                    Large boxes will represent homes lost and will have stories attached about someone who has made the unthinkable journey through disaster. After viewing the boxes, students will have the opportunity to share the steps they will take to become prepared and fill out an American Red Cross Emergency Communication Card
+                                 </p>
+                                 <a class="btn"> Click here to sign up through Volunteer Connection &raquo;</a>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td>
+                                 <!-- Callout Panel -->
+                                 <p class="callout">Would you like an <b> official Red Cross ID with lanyard </b>? Get one now! As long as you have a Volunteer Connection account, you can order one and it will be delivered to your house.</p>
+                                 <!-- /callout panel -->
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/4855b04f9611e42c6fea9fde7214b6d58924ab39_original.jpg" /></td>
+                              <td>
+                                 <h4>National Blood Donor Month!</h4>
+                                 <p class=""> The Red Cross has determined January National Blood Donor Month, to help keep the blood supply high, and to save as many lives as possible. 
+                                    Every two seconds, someone in the US needs blood. 
+                                 <ul>
+                                    <li>During the winter, there is generally a dip in Red Cross blood donations due to the cold, during the season when blood is needed the most. 
+                                    </li>
+                                    <li>Find a local blood drive <a href="http://www.redcross.org/give-blood"> here</a>! Healthy individuals over 17 years old and over 110 pounds are generally eligible to donate. 
+                                       Blood can be donated every 56 days. 
+                                       Even if you can’t donate blood, you can get involved by organizing a blood drive at your school or in your community!
+                                    </li>
+                                    <li>
+                                       For more information on this process, please visit <a href="http://www.redcrossblood.org/hosting-blood-drive/coordinator-tools/planning-timeline"> here</a>, or contact Susan Sommer at susan.sommer@redcross.org. </p>
+                                    </li>
+                                 </ul>
+                                 <a class="btn" href="https://www.youtube.com/watch?v=86WEINnM0gg">Watch this testimonial from a recipient of donated blood! &raquo;</a>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="http://redcrossyouth.org/wp-content/uploads/2011/08/nyc.png" /></td>
+                              <td>
+                                 <h4>Youth Preparedness Week<small> January 16th - 20th</small></h4>
+                                 <p class="">The Red Cross Youth Preparedness week will take place from January 16th through January 20th! Opportunities to get involved with disaster preparedness, and to prepare and protect your own family from disaster, include:
+                                 <ul>
+                                    <li>Gather your family to create an <b>Emergency Plan </b>, using the Red Cross templates <a href="http://www.redcross.org/get-help/prepare-for-emergencies/be-red-cross-ready/make-a-plan">here</a>. A few minutes of planning can keep you ready for any disaster. </li>
+                                    <li>Encourage your younger siblings and relatives to download the <a href="http://www.redcross.org/monsterguard"> Monster Guard: Prepare for Emergencies App </a>, designed for 7-11 year olds to understand how to prepare for various emergencies, including weather and home fires.</li>
+                                    <li>Get them to read the <i>“Mickey and Friends Disaster Activity Book”</i>, designed by Disney, in <a href="http://public-static.disneystorycentral.com/ddb/redcross/9781423198451/index.html">English</a> and <a href="http://public-static.disneystorycentral.com/ddb/redcross/9781484724811/index.html">Spanish</a>.</li>
+                                    <li>Explore other Red Cross apps <a href="http://www.redcross.org/get-help/prepare-for-emergencies/mobile-apps">here</a>!</li>
+                                 </ul>
+                                 </p>
+                                 <a class="btn" href="http://redcrossyouth.org/college-resources/activity-guides/">Explore other Red Cross activities here! &raquo;</a>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td>
+                                 <!-- Callout Panel -->
+                                 <p class="callout">
+                                    Next issue will have have a spotlight section for clubs doing amazing things! Let us know what cool things your club is doing by emailing us!						
+                                    <a href="mailto:youthservicesgny@redcross.org"> Contact youthservicesgny@redcross.org &raquo;</a>	
+                                 </p>
+                                 <!-- /callout panel -->
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="http://wiki.openstreetmap.org/w/images/thumb/a/a3/Missing-Maps-logo.jpg/400px-Missing-Maps-logo.jpg" /></td>
+                              <td>
+                                 <h4>Missing Maps<small> February 22nd</small></h4>
+                                 <p class="">Join us on Wednesday, February 22nd for the Missing Maps Project hosted by the American Red Cross Greater New York Region! 
+                                    This is an exciting opportunity contribute to an international humanitarian project while networking with your fellow students across the Greater New York Region.
+                                    <br>
+                                    <i>What is Missing Maps?</i> Missing Maps is a humanitarian project that preemptively maps parts of the world that are vulnerable to natural disasters, 
+                                    conflicts, and disease epidemics. The project was founded in 2014 and 
+                                    has so far mapped large towns and cities in countries such as <b>South Sudan</b>, <b>the Democratic Republic of the Congo</b>, and the <b>Central African Republic</b>.
+                                 </p>
+                                 <a class="btn" href="http://rdcrss.org/2jaJYp8">Click here to sign up through Volunteer Connection &raquo;</a>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td class="small" width="20%" style="vertical-align: top; padding-right:10px;"><img src="https://s23.postimg.org/ctrsqnpd7/Screen_Shot_2017_01_12_at_11_28_49_PM.png" /></td>
+                              <td>
+                                 <h4>Volunteer Intake Processing</h4>
+                                 <p class="">
+                                    Looking for a new and exciting volunteer opportunity? 
+                                    Perhaps you would be interested in becoming a Volunteer Intake Processing (VIP) 
+                                    Center volunteer! Our national VIP Center is currently staffed by existing volunteers 
+                                    and we are looking for additional youth to join the team! You can work from home or from 
+                                    your local Red Cross office. 
+                                 </p>
+                                 <p>
+                                    <b>What are the requirements for this role?</b>
+                                 <p>
+                                 <ul>
+                                    <li>Comfortable speaking with prospective volunteers over the phone</li>
+                                    <li>Comfortable working with computers</li>
+                                    <li>Being able to dedicate two to four hours a week on volunteer intake</li>
+                                 </ul>
+                                 <p>
+                                    Please email Travis Tam, Regional Youth Services Coordinator, at travis.tam@redcross.org if you are interested in this wonderful opportunity.
+                                 </p>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                     <!-- content -->
+                     <div class="content">
+                        <table bgcolor="">
+                           <tr>
+                              <td>
+                                 <!-- social & contact -->
+                                 <table bgcolor="" class="social" width="100%">
+                                    <tr>
+                                       <td>
+                                          <!--- column 1 -->
+                                          <div class="column">
+                                             <table bgcolor="" cellpadding="" align="left">
+                                                <tr>
+                                                   <td>
+                                                      <h5 class="">Connect with Us:</h5>
+                                                      <p class="">
+                                                         <a href="https://www.facebook.com/groups/RedCrossClubsofGNY/" class="soc-btn fb">Facebook</a> 
+                                                         <a href="https://www.instagram.com/redcrossny/?hl=en" class="soc-btn tw">Instagram</a> 
+                                                         <img src="https://d3pl14o4ufnhvd.cloudfront.net/v2/uploads/3f219839-3267-4fb4-a59c-2dcfcd053e5d/f21b7d4cef00cdc7176908d5fd7c75c0e5986a82_original.jpg" />
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                             <!-- /column 1 -->
+                                          </div>
+                                          <!--- column 2 -->
+                                          <div class="column">
+                                             <table bgcolor="" cellpadding="" align="left">
+                                                <tr>
+                                                   <td>
+                                                      <h5 class="">Contact Info:</h5>
+                                                      <center>
+                                                      <p>										
+                                                    
+                                                         <b>Youth Services: </b>
+                                                         <a href="youthservicesgny@redcross.org">youthservicesgny@redcross.org</a>
+                                                         
+                                                         <b><br>Chapter Youth Council: </b>
+                                                         <br><a href="mailto:jason.mohabir@redcross.org">Jason Mohabir</a> 
+                                                         <br><a href="mailto:georgia.vasilopoulous@redcross.org">Georgia Vasilopolous</a>
+                                                         <br><a href="mailto:polina.solovyevna@redcross.org">Polina Solovyevna</a> 
+                                                         <br><a href="mailto:linda.tun@redcross.org">Linda Tun</a> 
+                                                         <br><a href="mailto:evan.batov@redcross.org">Evan Batov</a> 
+                                                   		 <br><a href="mailto:luisa.healey@redcross.org">Luisa Healey</a>
+                                                         <br><a href="mailto:maya.velazquez@redcross.org">Maya Velasquez</a> 
+               											 <br><a href="mailto:sarah.zeng@redcross.org">Sarah Zeng</a>                                                         
+                                                         <br><a href="mailto:gurjot.chand@redcross.org">Gurjot Chand</a> 
+                                                         <br><a href="mailto:raja.awais@redcross.org">Awais Azhar</a>
+                                                         
+                                                         <b><br>Chapter Coordinators of Youth Services: </b>
+                                                         <br><a href="mailto:lena.kasen2@redcross.org">Lena Kasen</a> 
+                                                         <br><a href="mailto:thifen.mauger2@redcross.org">Thifen Mauger</a> 
+                                                         
+                                                         <b><br>Regional Coordinator of Youth Services:</b>
+                                                         <br><a href="mailto:travis.tam@redcross.org">Travis Tam</a>
+                                                      </p>
+                                                   </center>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                             <!-- /column 2 -->	
+                                          </div>
+                                          <div class="clear"></div>
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <!-- /social & contact -->
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                  </td>
+                  <td></td>
+               </tr>
+            </table>
+            <!-- /BODY -->
+            <!-- FOOTER -->
+            <table class="footer-wrap">
+               <tr>
+                  <td></td>
+                  <td class="container">
+                     <!-- content -->
+                     <div class="content">
+                        <table>
+                           <tr>
+                              <td align="center">
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <!-- /content -->
+                  </td>
+                  <td></td>
+               </tr>
+            </table>
+            <!-- /FOOTER -->
+   </body>
 </html>
+
+
