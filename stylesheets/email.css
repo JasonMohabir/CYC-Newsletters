@@ -176,22 +176,19 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 /* Let's make sure tables in the content area are 100% wide */
 .content table { width: 100%; }
 
-
 /* Odds and ends */
 .column {
-	width: 300px;
+	width: 100%;
 	float:left;
 }
 .column tr td { padding: 15px; }
 .column-wrap { 
 	padding:0!important; 
 	margin:0 auto; 
-	max-width:600px!important;
 }
 .column table { width:100%;}
 .social .column {
-	width: 280px;
-	min-width: 279px;
+	width: 50%;
 	float:left;
 }
 
